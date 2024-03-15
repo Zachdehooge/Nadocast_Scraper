@@ -5,7 +5,7 @@
 
 [![BeautifulSoup version](https://badge.fury.io/py/beautifulsoup4.svg)](https://badge.fury.io/py/beautifulsoup4)
 ![Python Version](https://img.shields.io/badge/python-3.12.1-yellow)
-[![Python Snyk Check](https://github.com/Zachdehooge/Database-Application/actions/workflows/snyk.yml/badge.svg)](https://github.com/Zachdehooge/Database-Application/actions/workflows/snyk.yml)
+[![Python Snyk Check](https://github.com/Zachdehooge/Nadocast_Scraper/actions/workflows/snyk.yml/badge.svg)](https://github.com/Zachdehooge/Nadocast_Scraper/actions/workflows/snyk.yml)
 
 
 A Python application that uses the `Typer` framework to work with SQLITE databases.
