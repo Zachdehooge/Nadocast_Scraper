@@ -35,7 +35,7 @@ url = "http://data.nadocast.com/{2}{1}/{2}{1}{0}/t{3}z/".format(day, month, year
 
 
 #If there is no such folder, the script will create one automatically
-folder_location = r'C:\\Nadocast\\{1}_{0}_{2}_{3}z'.format(day, month, year, timeNow)
+folder_location = r'Nadocast\\{1}_{0}_{2}_{3}z'.format(day, month, year, timeNow)
 if not os.path.exists(folder_location):os.makedirs(folder_location)
 
 response = requests.get(url)
