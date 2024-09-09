@@ -1,1 +1,1 @@
-python ./Nadocast_Automated.py
+python3 ./Nadocast_Automated.py
