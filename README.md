@@ -10,7 +10,7 @@
 
 1. Download Github repo
 2. Extract folder and open a new command prompt window in the extracted folder
-3. Run `Install_Dependencies.bat`
+3. Run `Install_Dependencies.bat` or `Install_Dependencies.sh`
 4. Run `Nadocast.bat` or `python Nadocast_Automated.py`
 
 # Task Scheduler Automation (Optional)
