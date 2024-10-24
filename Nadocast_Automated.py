@@ -38,6 +38,7 @@ folder_location = r'Nadocast\\{1}_{0}_{2}_{3}z'.format(day, month, year, timeNow
 if not os.path.exists(folder_location):os.makedirs(folder_location)
 
 response = requests.get(url)
+
 soup= BeautifulSoup(response.text, "html.parser")
 for link in soup.select("a[href$='.png']"):
     #Name the png files using the last portion of each link which are unique in this case
